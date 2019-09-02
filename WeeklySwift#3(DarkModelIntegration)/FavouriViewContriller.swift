@@ -15,11 +15,12 @@ class FavouriViewContriller: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupMainImageView()
         let blurEffect = UIBlurEffect(style: .light)
         let blurView = configureBlurview(effect: blurEffect)
         view.addSubview(blurView)
         
-        setupMainImageView()
+        
         view.backgroundColor = .green
     }
     
