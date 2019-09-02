@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447B9F0F231DA78A005E5ABF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B9F0E231DA78A005E5ABF /* MainTabBarController.swift */; };
+		447B9F11231DA9B4005E5ABF /* FavouriViewContriller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B9F10231DA9B4005E5ABF /* FavouriViewContriller.swift */; };
 		44C8C18C231D8DD400C10479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C8C18B231D8DD400C10479 /* AppDelegate.swift */; };
 		44C8C18E231D8DD400C10479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C8C18D231D8DD400C10479 /* SceneDelegate.swift */; };
 		44C8C190231D8DD400C10479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C8C18F231D8DD400C10479 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		447B9F0E231DA78A005E5ABF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		447B9F10231DA9B4005E5ABF /* FavouriViewContriller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriViewContriller.swift; sourceTree = "<group>"; };
 		44C8C188231D8DD400C10479 /* WeeklySwift#3(DarkModelIntegration).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeeklySwift#3(DarkModelIntegration).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C8C18B231D8DD400C10479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C8C18D231D8DD400C10479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				44C8C18D231D8DD400C10479 /* SceneDelegate.swift */,
 				44C8C18F231D8DD400C10479 /* ViewController.swift */,
 				44C8C191231D8DD400C10479 /* Main.storyboard */,
+				447B9F0E231DA78A005E5ABF /* MainTabBarController.swift */,
+				447B9F10231DA9B4005E5ABF /* FavouriViewContriller.swift */,
 				44C8C194231D8DD600C10479 /* Assets.xcassets */,
 				44C8C196231D8DD600C10479 /* LaunchScreen.storyboard */,
 				44C8C199231D8DD600C10479 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447B9F11231DA9B4005E5ABF /* FavouriViewContriller.swift in Sources */,
 				44C8C190231D8DD400C10479 /* ViewController.swift in Sources */,
 				44C8C18C231D8DD400C10479 /* AppDelegate.swift in Sources */,
+				447B9F0F231DA78A005E5ABF /* MainTabBarController.swift in Sources */,
 				44C8C18E231D8DD400C10479 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

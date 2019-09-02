@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,6 +43,7 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="HLq-yB-SR4">
                                 <rect key="frame" x="15" y="59" width="50" height="50"/>
+                                <color key="tintColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="5rB-m9-l0V"/>
                                     <constraint firstAttribute="height" constant="50" id="sOw-Ca-qHJ"/>
@@ -78,5 +80,8 @@
     <resources>
         <image name="five" width="1000" height="534"/>
         <image name="star" width="128" height="128"/>
+        <namedColor name="Color">
+            <color red="1" green="0.80900001525878906" blue="0.032000001519918442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
