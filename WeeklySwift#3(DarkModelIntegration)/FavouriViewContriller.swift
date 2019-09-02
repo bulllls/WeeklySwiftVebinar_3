@@ -23,4 +23,12 @@ class FavouriViewContriller: UIViewController {
         imageView.frame = view.bounds
         imageView.contentMode = .scaleAspectFill
     }
+    private func configureBlurview(effect: UIVisualEffect) -> UIVisualEffectView {
+        let view = UIVisualEffectView()
+        view.layer.cornerRadius = 20
+        view.clipsToBounds = true
+        view.effect = effect
+        view.frame = self.view.bounds.inset(by: .init(top: 200, left: 32, bottom: 200, right: 32))
+        return view
+    }
 }
