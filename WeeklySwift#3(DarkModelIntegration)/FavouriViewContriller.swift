@@ -37,4 +37,13 @@ class FavouriViewContriller: UIViewController {
         view.frame = self.view.bounds.inset(by: .init(top: 200, left: 32, bottom: 200, right: 32))
         return view
     }
+    
+    private func configureLabel() -> UILabel {
+        let label = UILabel()
+        label.text = "GitHub"
+        label.textAlignment = .center
+        label.textColor = .systemBackground
+        label.font = UIFont.systemFont(ofSize: 40, weight: .medium)
+        return label
+    }
 }
