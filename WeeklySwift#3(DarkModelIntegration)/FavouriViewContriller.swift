@@ -44,6 +44,8 @@ class FavouriViewContriller: UIViewController {
         label.textAlignment = .center
         label.textColor = .systemBackground
         label.font = UIFont.systemFont(ofSize: 40, weight: .medium)
+        
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }
 }
